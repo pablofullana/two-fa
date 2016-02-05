@@ -14,10 +14,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-group :development, :test do
-  gem 'pry-rails'
-end
-
 group :development do
   gem 'spring'
+  gem "letter_opener"
+end
+
+group :development, :test do
+  gem 'pry-rails'
 end
